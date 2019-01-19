@@ -10,8 +10,10 @@ import pandas as pd
 
 #Importing the data
 dataset = pd.read_csv('Data.csv')
-X = dataset.iloc[:,:-1].values
 Y = dataset.iloc[:,3].values
+X = dataset.iloc[:,:-1].values
+
+
 
 # Splitting the dataset into the training set and test set
 from sklearn.model_selection import train_test_split

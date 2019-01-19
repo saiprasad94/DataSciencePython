@@ -32,6 +32,7 @@ plt.title('Salary vs Experience (Training Set)')
 plt.xlabel('years of experience')
 plt.ylabel('Salary')
 plt.show()
+plt.show()
 
 
 #visualising the Test set results
